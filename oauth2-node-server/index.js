@@ -2,8 +2,8 @@ const express = require("express");
 const axios = require("axios");
 var cors = require("cors");
 
-const CLIENT_ID = "8f672e53bc6b92be977d";
-const CLIENT_SECRET = "baf23a25e5877615ada2e72886649645f32bbb48";
+const CLIENT_ID = "...";
+const CLIENT_SECRET = "...";
 const GITHUB_URL = "https://github.com/login/oauth/access_token";
 
 const app = express();
